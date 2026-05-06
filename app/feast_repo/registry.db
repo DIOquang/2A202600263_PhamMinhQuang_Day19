@@ -1,0 +1,79 @@
+
+<
+
+__dummy"
+__dummy_idJlab19
+ºÝêÏØÔæ¨ºÝêÏØÔæ¨
+x
+X
+item?A document in the corpus (matches data/corpus_vn.jsonl doc_id)."doc_idJlab19
+ºÝêÏ€ë¨ºÝêÏ€ë¨
+`
+@
+user&A registered user of the AI assistant."user_idJlab19
+ºÝêÏˆªï¨ºÝêÏˆªï¨1"$b734fec6-426d-467f-8edc-0547ba95fad3*ÈÝêÏøÁ¶2Û
+¢
+query_velocity_featureslab19user"
+queries_last_hour"
+distinct_topics_24h2:êevent_timestampZjh/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/query_velocity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢query_velocity_source’ºÝêÏˆÕØ"ºÝêÏ Ìá¨@R@Recent query patterns per user (streaming, fraud-style cadence).b
+user_id’latest4
+ºÝêÏàÔó¨ÈÝêÏˆçÛ
+¸ÁêÏ€É¬‚°ÝêÏ2à
+§
+user_profile_featureslab19user"
+reading_speed_wpm"
+preferred_language"
+topic_affinity2€šž:æevent_timestampZhf/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/user_profile.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢user_profile_source’ºÝêÏ¨¹Â"ºÝêÏØŠÕ¨@R6Stable per-user profile (slow-moving). Refresh: daily.b
+user_id’latest4
+ºÝêÏ˜³†©ÈÝêÏ˜ºï¤
+ÈÃÌÎð©ò°ÝêÏ2ß
+¦
+item_popularity_featureslab19item"
+click_count_24h"
+
+ctr_7d"
+avg_dwell_seconds2€£:ìevent_timestampZki/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/item_popularity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢item_popularity_source’ºÝêÏ€ØÊ"ºÝêÏÈ¤Ü¨@R9Per-doc engagement (mixed batch+stream). Refresh: hourly.b
+
+doc_id’latest4
+ºÝêÏÈí—©ÈÝêÏ ä¸¶
+ÈºåÏÐ•ƒ¥°ÝêÏR
+®
+,feast.infra.online_stores.sqlite.SqliteTable"~
+\/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/online_store.dblab19_item_popularity_features
+­
+,feast.infra.online_stores.sqlite.SqliteTable"}
+\/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/online_store.dblab19_query_velocity_features
+«
+,feast.infra.online_stores.sqlite.SqliteTable"{
+\/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/online_store.dblab19_user_profile_featuresbîevent_timestampZhf/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/user_profile.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢user_profile_sourceªlab19’ºÝêÏ¨¹Â"ºÝêÏØŠÕ¨bôevent_timestampZki/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/item_popularity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢item_popularity_sourceªlab19’ºÝêÏ€ØÊ"ºÝêÏÈ¤Ü¨bòevent_timestampZjh/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/query_velocity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢query_velocity_sourceªlab19’ºÝêÏˆÕØ"ºÝêÏ Ìá¨Š'
+
+lab19
+ºÝêÏ˜ÔœžºÝêÏ˜Ôœž’‰
+¨
+query_velocity_featureslab19"feature_view*Ã
+¢
+query_velocity_featureslab19user"
+queries_last_hour"
+distinct_topics_24h2:êevent_timestampZjh/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/query_velocity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢query_velocity_source’ºÝêÏˆÕØ"ºÝêÏ Ìá¨@R@Recent query patterns per user (streaming, fraud-style cadence).b
+user_id’latest
+ºÝêÏàÔó¨ºÝêÏàÔó¨2ºÝêÏˆè„©B$daaab568-7570-4a33-ab6a-cd4493b1b9a7
+«
+user_profile_featureslab19"feature_view*È
+§
+user_profile_featureslab19user"
+reading_speed_wpm"
+preferred_language"
+topic_affinity2€šž:æevent_timestampZhf/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/user_profile.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢user_profile_source’ºÝêÏ¨¹Â"ºÝêÏØŠÕ¨@R6Stable per-user profile (slow-moving). Refresh: daily.b
+user_id’latest
+ºÝêÏ˜³†©ºÝêÏ˜³†©2ºÝêÏàè–©B$56f0eb73-47e0-44f2-b981-b418415dc081
+­
+item_popularity_featureslab19"feature_view*Ç
+¦
+item_popularity_featureslab19item"
+click_count_24h"
+
+ctr_7d"
+avg_dwell_seconds2€£:ìevent_timestampZki/Users/quang/Desktop/Day19-Track2-VectorFeatureStore-Lab-main/app/feast_repo/data/item_popularity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢item_popularity_source’ºÝêÏ€ØÊ"ºÝêÏÈ¤Ü¨@R9Per-doc engagement (mixed batch+stream). Refresh: hourly.b
+
+doc_id’latest
+ºÝêÏÈí—©ºÝêÏÈí—©2ºÝêÏ€Õ§©B$ad370c7e-e5be-4393-948a-e26760ebfe79
